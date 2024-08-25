@@ -2,40 +2,40 @@
   
   {
     "title": "MongoDB",
-    "imageSrc": "mongodb.png"
+    "imageSrc": "/mongodb.png"
   },
   {
     "title": "Express",
-    "imageSrc": "express.jpeg"
+    "imageSrc": "/express.jpeg"
   },
 
   {
     "title": "React",
-    "imageSrc": "react.png"
+    "imageSrc": "/react.png"
   },
   {
     "title": "Node",
-    "imageSrc": "node.png"
+    "imageSrc": "/node.png"
   },
   {
     "title": "C",
-    "imageSrc": "c.png"
+    "imageSrc": "/c.png"
   },
   {
     "title": "JAVA",
-    "imageSrc": "java.jpeg"
+    "imageSrc": "/java.jpeg"
   },
   {
     "title": "PYTHON",
-    "imageSrc": "python.webp"
+    "imageSrc": "/python.webp"
   },
   {
     "title": "CSS",
-    "imageSrc": "css.png"
+    "imageSrc": "/css.png"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "javascript.png"
+    "imageSrc": "/javascript.png"
   }
  
 ]

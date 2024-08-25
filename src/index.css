@@ -6,7 +6,7 @@
 body{
   background-color: rgb(32, 55, 101);
   color: white;
-  background-image: url("bg.jpg");
+  background-image: url("/public/bg.jpg");
 }
 
 a{
