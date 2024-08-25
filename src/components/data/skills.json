@@ -1,0 +1,41 @@
+[
+  
+  {
+    "title": "MongoDB",
+    "imageSrc": "mongodb.png"
+  },
+  {
+    "title": "Express",
+    "imageSrc": "express.jpeg"
+  },
+
+  {
+    "title": "React",
+    "imageSrc": "react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "node.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "c.png"
+  },
+  {
+    "title": "JAVA",
+    "imageSrc": "java.jpeg"
+  },
+  {
+    "title": "PYTHON",
+    "imageSrc": "python.webp"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "javascript.png"
+  }
+ 
+]

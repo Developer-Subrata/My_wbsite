@@ -1,0 +1,26 @@
+[
+  {
+    "key": 1,
+    "title": "Hotel_Management_Using-C",
+    "imageSrc": "/Hotel.webp",
+    "description": "This is a project made with complete C programming.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Developer-Subrata/Hotel_Management_Using-C"
+  },
+  {
+    "key": 2,
+    "title": "Restaurant Web Application",
+    "imageSrc": "/rest.png",
+    "description": "This is a project made with complete MERN Stack.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Developer-Subrata/RestaurantWebApp"
+  },
+  {
+    "key": 3,
+    "title": "Portfolio",
+    "imageSrc": "/port.png",
+    "description": "This is a project made with complete React js.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Developer-Subrata/My_wbsite"
+  }
+]
