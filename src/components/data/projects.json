@@ -20,7 +20,7 @@
     "title": "Portfolio",
     "imageSrc": "/port.png",
     "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
+    "demo": "https://my-site-teal-six.vercel.app/",
     "source": "https://github.com/Developer-Subrata/My_wbsite"
   }
 ]
