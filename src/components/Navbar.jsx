@@ -7,7 +7,7 @@ export const Navbar = () => {
          data-aos="fade-down"
          data-aos-duration="1000"
         >
-            <div className='left nav_items'>Portfoliooooo</div>
+            <div className='left nav_items'>Portfolio</div>
             <div className='right'>
                 <a href="#home" className="nav_items">Home</a>
                 <a href="#qualifications" className="nav_items">Qualifications</a>
