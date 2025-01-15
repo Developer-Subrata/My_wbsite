@@ -1,41 +1,38 @@
 [
-  
   {
     "title": "MongoDB",
-    "imageSrc": "../public/mongodb.png"
+    "imageSrc": "/mongodb.png"
   },
   {
     "title": "Express",
-    "imageSrc": "../public/express.jpeg"
+    "imageSrc": "/express.jpeg"
   },
-
   {
     "title": "React",
-    "imageSrc": "../public/react.png"
+    "imageSrc": "/react.png"
   },
   {
     "title": "Node",
-    "imageSrc": "../public/node.png"
+    "imageSrc": "/node.png"
   },
   {
     "title": "C",
-    "imageSrc": "../public/c.png"
+    "imageSrc": "/c.png"
   },
   {
     "title": "JAVA",
-    "imageSrc": "../public/java.jpeg"
+    "imageSrc": "/java.jpeg"
   },
   {
     "title": "PYTHON",
-    "imageSrc": "../public/python.webp"
+    "imageSrc": "/python.webp"
   },
   {
     "title": "CSS",
-    "imageSrc": "../public/css.png"
+    "imageSrc": "/css.png"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "../public/javascript.png"
+    "imageSrc": "/javascript.png"
   }
- 
 ]
