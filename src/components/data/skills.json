@@ -28,6 +28,10 @@
     "imageSrc": "/python.webp"
   },
   {
+    "title": "HTML",
+    "imageSrc": "/html.png"
+  },
+  {
     "title": "CSS",
     "imageSrc": "/css.png"
   },

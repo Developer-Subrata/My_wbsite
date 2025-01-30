@@ -12,8 +12,8 @@
     "title": "Restaurant Web Application",
     "imageSrc": "/rest.png",
     "description": "This is a project made with complete MERN Stack.",
-    "demo": "https://www.example.com",
-    "source": "https://github.com/Developer-Subrata/RestaurantWebApp"
+    "demo": "https://restaurant-project-red.vercel.app/",
+    "source": "https://github.com/Developer-Subrata/Minor_Project.git"
   },
   {
     "key": 3,
