@@ -1,5 +1,9 @@
 [
   {
+    "title": "MS-OFFICE",
+    "imageSrc": "/MS-Office.jpg"
+  },
+  {
     "title": "MongoDB",
     "imageSrc": "/mongodb.png"
   },
