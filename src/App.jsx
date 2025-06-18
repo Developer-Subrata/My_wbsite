@@ -20,7 +20,7 @@ const App =()=> {
           <div className="container">
             <Home/>
             <Qualifications/>
-            {/* <Experience/> */}
+            <Experience/>
             <Skills/>
             <Project/>
             <Contact/>

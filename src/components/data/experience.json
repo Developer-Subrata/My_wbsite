@@ -1,41 +1,17 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
+    "role": "Teacher & Incharge",
+    "organisation": "Care Academy Computer & Skill Training Centre",
+    "startDate": "Jan, 2025",
     "endDate": "Present",
-    "location": "CA,United State",
+    "location": "Bhagwangola, Murshidabad",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
-    ],
-    "imageSrc": "google.png"
-  },
-  {
-    "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
-    "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
-    ],
-    "imageSrc": "microsoft.png"
-  },
-  {
-    "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
-    "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
-    ],
-    "imageSrc": "netflix.png"
+  "Designing and delivering engaging computer training programs for students of all proficiency levels, fostering strong digital literacy and practical IT skills.",
+  "Providing academic and career counseling to students, guiding them in selecting appropriate learning paths and preparing for future opportunities.",
+  "Overseeing daily institutional operations, including academic scheduling, student admissions, and administrative management to ensure smooth and effective center functioning."
+],
+
+    "imageSrc": "care_academy.jpg"
   }
 ]
