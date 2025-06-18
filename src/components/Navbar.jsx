@@ -1,7 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const styles = {
     navbar: {
@@ -37,7 +44,7 @@ export const Navbar = () => {
       transition: 'color 0.3s ease',
     },
     hamburger: {
-      display: 'none',
+      display: windowWidth <= 768 ? 'flex' : 'none',
       flexDirection: 'column',
       cursor: 'pointer',
     },
@@ -65,14 +72,6 @@ export const Navbar = () => {
       padding: '0.5rem 0',
       fontWeight: '500',
     },
-    '@media only screen and (maxWidth: 768px)': {
-      links: {
-        display: 'none',
-      },
-      hamburger: {
-        display: 'flex',
-      },
-    },
   };
 
   const handleToggle = () => {
@@ -80,17 +79,26 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="navbar" style={styles.navbar} data-aos="fade-down" data-aos-duration="1000">
-      <div className="logo" style={styles.logo}>Portfolio</div>
-
-      <div style={{ ...styles.links, display: window.innerWidth <= 768 ? 'none' : 'flex' }}>
-        <a href="#home" style={styles.link}>Home</a>
-        <a href="#qualifications" style={styles.link}>Qualifications</a>
-        <a href="#experience" style={styles.link}>Experience</a>
-        <a href="#skills" style={styles.link}>Skills</a>
-        <a href="#projects" style={styles.link}>Projects</a>
-        <a href="#contact" style={styles.link}>Contact</a>
+    <div
+      className="navbar"
+      style={styles.navbar}
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
+      <div className="logo" style={styles.logo}>
+        Portfolio
       </div>
+
+      {windowWidth > 768 && (
+        <div style={styles.links}>
+          <a href="#home" style={styles.link}>Home</a>
+          <a href="#qualifications" style={styles.link}>Qualifications</a>
+          <a href="#experience" style={styles.link}>Experience</a>
+          <a href="#skills" style={styles.link}>Skills</a>
+          <a href="#projects" style={styles.link}>Projects</a>
+          <a href="#contact" style={styles.link}>Contact</a>
+        </div>
+      )}
 
       {/* Hamburger menu */}
       <div className="hamburger" style={styles.hamburger} onClick={handleToggle}>
@@ -99,7 +107,7 @@ export const Navbar = () => {
         <div style={styles.bar}></div>
       </div>
 
-      {menuOpen && window.innerWidth <= 768 && (
+      {menuOpen && windowWidth <= 768 && (
         <div className="mobileMenu" style={styles.mobileMenu}>
           <a href="#home" style={styles.mobileLink} onClick={handleToggle}>Home</a>
           <a href="#qualifications" style={styles.mobileLink} onClick={handleToggle}>Qualifications</a>
