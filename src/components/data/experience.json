@@ -7,11 +7,23 @@
     "endDate": "Present",
     "location": "Bhagwangola, Murshidabad",
     "experiences": [
-  "Designing and delivering engaging computer training programs for students of all proficiency levels, fostering strong digital literacy and practical IT skills.",
-  "Providing academic and career counseling to students, guiding them in selecting appropriate learning paths and preparing for future opportunities.",
-  "Overseeing daily institutional operations, including academic scheduling, student admissions, and administrative management to ensure smooth and effective center functioning."
-],
-
+      "Designing and delivering engaging computer training programs for students of all proficiency levels, fostering strong digital literacy and practical IT skills.",
+      "Providing academic and career counseling to students, guiding them in selecting appropriate learning paths and preparing for future opportunities.",
+      "Overseeing daily institutional operations, including academic scheduling, student admissions, and administrative management to ensure smooth and effective center functioning."
+    ],
     "imageSrc": "care_academy.jpg"
-  }
+  },
+  {
+  "id": 2,
+  "role": "AI‑Enhanced Development Specialist",
+  "organisation": "Self‑Driven Innovation",
+  "imageSrc": "ai-icon.png",
+  "experiences": [
+    "I can use AI in a very effective and professional way, applying it across diverse domains with creativity and precision.",
+    "Leveraging AI tools like ChatGPT, Midjourney & GitHub Copilot to accelerate coding, automate tasks, and ideate smarter solutions.",
+    "Seamlessly integrating AI-powered workflows to enhance productivity and enrich web applications with intelligent features.",
+    "Commitment to continuous learning, applying AI to solve complex problems and elevate software quality."
+  ]
+}
+
 ]

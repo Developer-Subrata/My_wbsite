@@ -99,13 +99,35 @@ a:focus::after {
 }
 
 /* Home Section */
+.intro-container {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-color-light);
+  background-color: rgba(0, 0, 0, 0.3); /* semi-transparent for blur */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.intro-container strong {
+  color: var(--accent-color);
+}
+
+
+
+
+
 .home {
   min-height: 85vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 5%;
-  gap: 30px;
+
   flex-wrap: wrap;
 }
 .home .left {
@@ -138,14 +160,15 @@ a:focus::after {
   max-width: 320px;
 }
 .home .right .img img {
-  height: 270px;
-  width: 270px;
+  height: 360px;
+  width: 960px;
   border-radius: 50%;
-  border: 5px solid var(--accent-color);
-  animation: photoanim 6s infinite ease-in-out;
+  border: 6px solid var(--accent-color);
+  animation: photoanim 3s infinite ease-in-out;
   object-fit: cover;
-  box-shadow: 0 0 20px var(--accent-color);
+  box-shadow: 0 0 30px var(--accent-color);
 }
+
 
 /* Animated photo */
 @keyframes photoanim {
@@ -258,15 +281,16 @@ a:focus::after {
 /* Qualifications Table */
 .table {
   font-size: 24px;
+  text-align: center;
   border: 2.5px solid var(--qual-table-border);
   border-radius: 20px;
   padding: 15px 20px;
   color: var(--qual-table-color);
   margin: 3rem auto;
-  box-shadow: 0 12px 35px rgba(0, 255, 255, 0.4);
+  box-shadow: 0 12px 35px rgba(29, 41, 128, 0.4);
   max-width: 90vw;
   overflow-x: auto;
-  background: rgba(30, 42, 120, 0.75);
+  background: rgba(52, 53, 57, 0.75);
   font-weight: 600;
   letter-spacing: 0.03em;
 }
@@ -307,9 +331,10 @@ a:focus::after {
     font-size: 18px;
   }
   .home .right .img img {
-    width: 180px;
-    height: 180px;
-  }
+  width: 900px;
+  height: 510px;
+}
+
 }
 
 @media screen and (max-width: 480px) {
