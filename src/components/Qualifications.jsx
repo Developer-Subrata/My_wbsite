@@ -37,7 +37,7 @@ export const Qualifications = () => {
     },
     {
       icon: <FaUniversity />,
-      title: "Master of Computer Application (BCA)",
+      title: "Master of Computer Application (MCA)",
       institution: "Swami Vivekananda University",
       year: "Pursuing",
       description: "Mastering with comprehensive computer science education",
