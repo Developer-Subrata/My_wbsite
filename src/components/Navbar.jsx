@@ -4,6 +4,7 @@ const NAV_LINKS = [
   { href: '#home', label: 'Home' },
   { href: '#qualifications', label: 'Qualifications' },
   { href: '#experience', label: 'Experience' },
+  { href: '#services', label: 'Services' },
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
   { href: '#contact', label: 'Contact' },
@@ -670,9 +671,9 @@ export const Navbar = () => {
       <div className={`navbar-wrapper ${scrolled ? 'scrolled' : ''}`}>
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} aria-label="Main navigation">
           {/* Logo */}
-          <a href="#home" className="logo" aria-label="Portfolio home">
+          <a href="#home" className="logo" aria-label="Portfolio home"> 
             <span className="logo-mark">S</span>
-            <span className="logo-text">Subrata<span>.</span></span>
+            <span className="logo-text">SUBRATA<span></span></span>
           </a>
 
           {/* Desktop Nav with sliding pill */}

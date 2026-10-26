@@ -30,7 +30,7 @@ export const Home = () => {
       strings: [
         'Welcome To My Profile...',
         "I'm <span class='gradient-text'>Subrata Mandal</span>.",
-        'A Passionate <span class="gradient-text">MERN Stack Developer</span>.',
+        'A Passionate <span class="gradient-text"> Developer</span>.',
         'Crafting Full-Stack Web Experiences.',
         "Let's Build Something <span class='gradient-text'>Awesome</span> Together!",
       ],
@@ -648,13 +648,17 @@ export const Home = () => {
               <span ref={typedRef}></span>
             </h1>
 
-            <p className="home-description">
-              I'm <strong>Subrata Mandal</strong>, a dedicated and energetic{' '}
-              <span className="highlight">MERN Stack Developer</span> who loves turning complex
-              problems into clean, efficient code. With hands-on experience in{' '}
-              <strong>MongoDB, Express.js, React.js, and Node.js</strong>, I build scalable
-              full-stack applications that deliver real value.
-            </p>
+<p className="home-description">
+  I'm <strong>Subrata Mandal</strong>, a passionate{' '}
+  <span className="highlight">Software/Web Developer</span>, dedicated Teacher,
+  and lifelong learner who enjoys transforming ideas into innovative digital
+  solutions. I work with diverse technologies, programming languages, and
+  modern development tools to build efficient, responsive, and user-friendly
+  applications. As someone who believes in continuous learning and daily
+  improvement, I constantly explore emerging technologies, sharpen my skills,
+  and stay updated with the latest industry trends. Alongside development, I
+  love teaching, sharing knowledge, and helping others grow through technology.
+</p>
 
             <div className="cta-buttons">
               <a href={pdf} download="Resume.pdf" className="btn btn-primary">

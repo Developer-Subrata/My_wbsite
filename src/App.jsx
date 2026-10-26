@@ -10,6 +10,7 @@ import { Experience } from './components/Experience';
 import { Skills } from './components/Skills';
 import { Project } from './components/Project';
 import { Contact } from './components/Contact';
+import { Services } from './components/Services';
 
 // --- Scroll progress bar (top of page) ---
 const ScrollProgress = () => {
@@ -124,6 +125,7 @@ const App = () => {
         <Experience />
         <Skills />
         <Project />
+        <Services />
         <Contact />
       </main>
 
